@@ -7,9 +7,9 @@ import (
 	"runtime"
 	"testing"
 
-	cpp "github.com/lsegal/cppgo"
-	"github.com/lsegal/cppgo/dl"
-	"github.com/lsegal/cppgo/internal/cpptest"
+	cpp "github.com/awgh/cppgo"
+	"github.com/awgh/cppgo/dl"
+	"github.com/awgh/cppgo/internal/cpptest"
 	"github.com/stretchr/testify/assert"
 )
 

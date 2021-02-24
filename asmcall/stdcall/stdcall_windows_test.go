@@ -3,7 +3,7 @@ package stdcall
 import (
 	"testing"
 
-	"github.com/lsegal/cppgo/asmcall/internal/asmcalltest"
+	"github.com/awgh/cppgo/asmcall/internal/asmcalltest"
 	"github.com/stretchr/testify/assert"
 )
 

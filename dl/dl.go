@@ -5,7 +5,7 @@ package dl
 import (
 	"unsafe"
 
-	"github.com/lsegal/cppgo/asmcall/cdecl"
+	"github.com/awgh/cppgo/asmcall/cdecl"
 )
 
 // Library represents a dynamic library object.

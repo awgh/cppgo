@@ -2,7 +2,7 @@
 
 package cpp
 
-import "github.com/lsegal/cppgo/asmcall/cdecl"
+import "github.com/awgh/cppgo/asmcall/cdecl"
 
 func (p ptr) stdcall(offset int, a ...uintptr) (uintptr, error) {
 	// ignore stdcalls on non-Windows platform

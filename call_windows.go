@@ -1,8 +1,8 @@
 package cpp
 
 import (
-	"github.com/lsegal/cppgo/asmcall/stdcall"
-	"github.com/lsegal/cppgo/asmcall/thiscall"
+	"github.com/awgh/cppgo/asmcall/stdcall"
+	"github.com/awgh/cppgo/asmcall/thiscall"
 )
 
 func (p ptr) cdeclcall(offset int, a ...uintptr) (uintptr, error) {

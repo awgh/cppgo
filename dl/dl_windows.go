@@ -4,7 +4,7 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/lsegal/cppgo/asmcall/stdcall"
+	"github.com/awgh/cppgo/asmcall/stdcall"
 )
 
 const (

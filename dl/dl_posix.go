@@ -9,7 +9,7 @@ import "C"
 import (
 	"unsafe"
 
-	"github.com/lsegal/cppgo/asmcall/cdecl"
+	"github.com/awgh/cppgo/asmcall/cdecl"
 )
 
 var (

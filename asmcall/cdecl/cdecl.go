@@ -5,7 +5,9 @@
 // compiler is not needed to call into C functions using this library.
 package cdecl
 
-import "errors"
+import (
+	"errors"
+)
 
 // Call calls a cdecl style function at memory address addr with the arguments
 // list a. The function result value is returned as a uintptr to be translated
